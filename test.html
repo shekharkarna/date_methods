@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		test
+	</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="test.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<h1>Date Methods</h1>
+
+	<div class="left">
+		<h2 >GetDate  using date 29 sept 2020</h2><hr>
+		<table id="left_table">
+			<tr>
+				<th id="small">Methods</th>
+				<th class="big">Results</th>
+			</tr>
+
+			<tr>
+				<td>getMonth()</td>
+				<td class="big" id="getMonth"></td>
+			</tr>
+
+			<tr>
+				<td>getDate()</td>
+				<td  class="big" id="getDate"></td>
+			</tr>
+
+			<tr>
+				<td>getHours()</td>
+				<td class="big" id="getHours"></td>
+			</tr>
+			<tr>
+				<td>getMinutes()</td>
+				<td class="big" id="getMinutes"></td>
+			</tr>
+			<tr>
+				<td>getSeconds()</td>
+				<td class="big" id="getSeconds"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="right">
+		<h2>Setdate for same date</h2><hr>
+		<table>
+			<tr>
+				<th id="small">Methods</th>
+				<th class="big">Result</th>
+			</tr>
+
+			<tr>
+				<td>setMonth()</td>
+				<td class="big" id="setMonth"></td>
+			</tr>
+
+			<tr>
+				<td>setDate()</td>
+				<td class="big" id="setDate"></td>
+			</tr>
+
+			<tr>
+				<td>setHours()</td>
+				<td class="big" id="setHours"></td>
+			</tr>
+
+			<tr>
+				<td>setMinutes()</td>
+				<td class="big" id="setMinutes"></td>
+			</tr>
+
+			<tr>
+				<td>setFullYear()</td>
+				<td class="big" id="setFullYear"></td>
+			</tr>
+
+			
+		</table>
+		
+	</div>
+	<br>
+
+	<div id="diff">
+		<h2 >Check out difference between 2 dates</h2>
+		<button onclick="calculate()" id="check">Check</button>
+		<p id="result"></p>
+	</div>
+
+</body>
+<script type="text/javascript" src="test.js"></script>
+</html>

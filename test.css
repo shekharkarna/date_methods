@@ -1,0 +1,42 @@
+body{
+	height: 100%;
+	background-size: cover;
+	color: #444;
+}
+
+h1{
+	text-align: center;
+}
+
+td,th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	color: #333;
+}
+
+#left_table{
+	border-collapse: collapse;
+	width: 40%;
+}
+
+#small{
+	width: 30%;
+}
+
+.left{
+	width: 30%;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+.right{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	padding-right: 100px;
+}
+
+#diff{
+	text-align: center;
+}
