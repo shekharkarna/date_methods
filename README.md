@@ -6,3 +6,4 @@ Deciding the regions etc. using only standard properties.
 ********
 
 This work has been done by using HTML,CSS and JavaScript
+
